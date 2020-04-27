@@ -10,6 +10,7 @@ namespace Fisher.Bookstore.Models
         public List<BookAuthor> BookAuthor { get; set; }
         public double Price { get; set; }
 
+        //Testing
         public void ApplyMemberDiscount()
         {
             Price = Price * .90;
